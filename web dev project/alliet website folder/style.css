@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: rgb(223, 239, 240);
+}
+.page{
+    
+}
+
+.header{
+    background: url("images/leaf.jpg") rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-blend-mode: multiply;
+    padding: 300px 0 300px 0;
+}
+#header-p{
+    margin: 0;
+    font-size: 55px;
+    font-family: "Work Sans","Helvetica Neue",helvetica,arial,sans-serif;
+    font-weight: 900;
+}
+.content{
+    text-align: center; 
+       color:rgb(137, 158, 158);
+       font-size: 27px;
+       font-family: "Work Sans","Helvetica Neue",helvetica,arial,sans-serif;
+       
+}
+.content p{
+    font-weight: 770;
+}
+.content-link{
+    text-align: center;
+
+}
+.content-link a{
+    text-decoration: none;
+    color:rgb(137, 158, 158);
+    padding: 10px;
+    font-size: 12px;
+    width: 100px;
+    margin: 10px auto ;
+    /* margin-bottom: 100px; */
+    border: 2px solid rgb(99, 94, 94);
+    border-radius: 30px;
+    display: block;
+}
+.content-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content-img img{
+    width:33%;
+    height: 33%;
+    margin: 2px auto;
+
+}
